@@ -12,5 +12,11 @@ print(5,"",5) use for 2 space
 print(5," ",5)use for 3 space
 print(5""5) invalid
 
+OUTPUT :-
+5 5
+5  5
+5   5
+5 _ 5
+5   5
 
 '''
