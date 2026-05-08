@@ -1,0 +1,13 @@
+'''  
+ we have to put output with using loop
+*
+****
+*****
+code :-
+#concept range(n to n-1)
+#multiplication ("_")pattern inside"" just repet numer of time
+'''
+
+for i in range(1,6):
+    print("*"*i)
+ 
