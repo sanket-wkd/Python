@@ -1,0 +1,28 @@
+print(10, end=" ")
+print(20)
+print(1)
+print(10, end="")
+print(20)
+print(2)
+print(10, end="hi")
+print(20)
+print(3)
+print(10, end=" hi")
+print(20)
+print(4)
+print(10, end=" hi ")
+print(20)
+
+'''
+OUTPUT:-
+10 20
+1
+1020
+2
+10hi20
+3
+10 hi20
+4
+10 hi 20
+
+'''
