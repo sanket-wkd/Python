@@ -1,0 +1,16 @@
+# cook your dish here
+print(5,5)
+print(5,"",5)
+print(5," ",5)
+print(5,"_",5)
+print(5, " " ,5)
+
+
+''' 
+print(5,5)  use for singlr space
+print(5,"",5) use for 2 space
+print(5," ",5)use for 3 space
+print(5""5) invalid
+
+
+'''
