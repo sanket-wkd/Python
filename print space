@@ -7,10 +7,14 @@ print(5, " " ,5)
 
 
 ''' 
-print(5,5)  use for singlr space
-print(5,"",5) use for 2 space
-print(5," ",5)use for 3 space
-print(5""5) invalid
+print(5,5) # use for singlr space
+print(5,"",5) #use for 2 space
+print(5," ",5)#use for 3 space
+print(5""5)# invalid
+
+#How do you print the numbers 1 to 5 on the same line with spaces?
+print(1,2,3,4,5)
+print("1 2 3 4 5")
 
 OUTPUT :-
 5 5
@@ -18,5 +22,7 @@ OUTPUT :-
 5   5
 5 _ 5
 5   5
+1 2 3 4 5 
+1 2 3 4 5 
 
 '''
