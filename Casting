@@ -1,0 +1,14 @@
+'''
+There may be times when you want to specify a type on to a variable.
+This can be done with casting.
+'''
+x = int(1)   # x will be 1
+y = int(2.8) # y will be 2
+z = int("3") # z will be 3
+
+m = float("3")   # z will be 3.0
+n = str(2)    # y will be '2'
+
+print(int(35.88)) #35
+print(float(35)) #35.0
+print(str(35.82)) #35.82
