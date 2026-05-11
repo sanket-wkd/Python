@@ -1,0 +1,65 @@
+# IMPORTANT 
+
+a = "Hello"
+b = "World"
+c = a + b
+print(c)
+#HelloWorld
+
+a = "Hello"
+b = "World"
+c = a + " " + b
+print(c)
+# Hello World
+
+'''
+age = 36
+#This will produce an error:
+txt = "My name is John, I am " + age
+print(txt)
+'''
+
+'''
+F- STRING
+To specify a string as an f-string,
+simply put an f in front of the string literal,
+and add curly brackets {} as placeholders 
+for variables and other operations.
+
+'''
+
+age = 36
+txt = f"My name is John, I am {age}"
+print(txt)
+# My name is John, I am 36
+
+#Display the price with 2 decimals:
+price = 59
+txt = f"The price is {price:.2f} dollars"
+print(txt)
+# The price is 59.00 dollars
+
+# Perform a math operation in the placeholder, and return the result:
+
+txt = f"The price is {20 * 59} dollars"
+print(txt)
+
+#The price is 1180 dollars
+
+txt = "Hello, welcome to my world."
+x = txt.find("welcome")
+print(x)
+
+'''
+H e l l o ,   w e l c o m e
+0 1 2 3 4 5 6 7 8 9 ...
+'''
+
+#The escape character allows you to use double quotes
+#when you normally would not be allowed:
+
+txt = "We are the so-called \"Vikings\" from the north."
+print (txt)
+
+
+
