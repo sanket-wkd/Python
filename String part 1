@@ -1,0 +1,37 @@
+x = 'Welcome'
+print(x[3]) # python string
+print (len(x))# give length of string
+
+
+#len() function tell the length of the string
+#Insert the correct keyword to check if the word 'free' is present in the text:
+
+
+'''
+txt = 'The best things in life are free!'
+if 'free' ____ txt:   answer "in"
+  print('Yes, free is present in the text.')
+contains ,present , in , match
+'''
+
+
+txt = 'The best things in life are free!'
+if 'free' in  txt:
+  print('Yes, free is present in the text.')
+
+txt = "The best things in life are free!"
+print("free" in txt)
+#out put  TRUE
+
+
+#check if not
+
+txt = "The best things in life are free!"
+print("expensive" not in txt)
+
+#OUTPUT TRUE
+
+txt = "The best things in life are free!"
+if "expensive" not in txt:
+  print("No, 'expensive' is NOT present.")
+
