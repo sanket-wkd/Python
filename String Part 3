@@ -1,0 +1,26 @@
+a = "Hello, World!"
+print (len(a))
+print(a.upper())  #HELLO, WORLD!
+print(a.Lower())  #hello, world!
+print(a.strip())   #Hello, World!
+
+a = "Hello, World!"
+print(a.replace("H", "J"))  #Jello, World!
+
+a = "Hello, World!"
+print(a.replace("l", "J"))   #HeJJo, WorJd! // small or capital letter matters
+
+a = "Hello, World!"
+b = a.split(",")
+print(b) 
+#['Hello', ' World!']
+
+a = "Hello, World!"
+b = a.split("l")
+print(b)
+#['He', '', 'o, Wor', 'd!']
+
+#Return the string without any whitespace at the beginning or the end.
+txt = " Hello World "
+x = txt.strip()
+
