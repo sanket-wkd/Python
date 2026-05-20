@@ -1,0 +1,30 @@
+x,y,z = "Orange","Apple","Banana"
+print(x)
+print(y)
+print(z)
+print()
+x=y=z="Orangr"
+print(x)
+print(y)
+print(z)
+print()
+fruits = ["apple", "banana", "cherry"]
+x, y, z = fruits
+print(x)
+print(y)
+print(z)
+
+'''
+Output:-
+Orange
+Apple
+Banana
+
+Orangr
+Orangr
+Orangr
+
+apple
+banana
+cherry
+'''
