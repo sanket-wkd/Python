@@ -1,0 +1,29 @@
+print("HEllo world")
+
+print('Different type of printing method')
+
+print("Now i want to ", end="")
+print("continue on same line")
+
+print("Now i want to ", end=" ")
+print("continue on same line")
+
+print ("My birthday is in", 2, "th month")
+
+print("Hello"); print("How are you?"); print("Bye bye!")
+
+print (3*2)
+
+'''
+OUTPUT:-
+
+HEllo world
+Different type of printing method
+Now i want to continue on same line
+Now i want to  continue on same line
+My birthday is in 2 th month
+Hello
+How are you?
+Bye bye!
+6
+'''
