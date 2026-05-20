@@ -1,0 +1,37 @@
+x = 7
+y = "Sanket"
+z= x*y
+a= '5'
+print(x)
+print()
+print(y)
+print (x * y)
+print()
+print(type(x))
+print(type(y))
+print()
+print (z)
+print(type(z))
+print()
+print (a*x)
+print (x*a)
+print(type(a*x))
+
+
+'''
+OUTPUT:-
+7
+
+Sanket
+SanketSanketSanketSanketSanketSanketSanket
+
+<class 'int'>
+<class 'str'>
+
+SanketSanketSanketSanketSanketSanketSanket
+<class 'str'>
+
+5555555
+5555555
+<class 'str'>
+'''
