@@ -43,3 +43,16 @@ print("Another way")
 grades = list (map(grade,marks))
 print("Grades:", (grades))
 
+
+'''
+Output:-
+Exme Scores : [77, 97.64, 85, 55]
+Grades: C
+Grades: A
+
+By defalt print iteraton wise another wat is : 
+
+Grades: ['B', 'F']
+Another way
+Grades: ['C', 'A', 'B', 'F']
+'''
