@@ -9,3 +9,17 @@ print(b)
 print()
 print(type(a))
 print(type(b))
+
+'''
+INPUT :-
+1. Sanket 19
+2. 3 2
+OUTPUT:-
+Sanket
+19
+3
+2
+
+<class 'int'>
+<class 'int'>
+''
