@@ -1,0 +1,28 @@
+# Error case # Important case
+
+a = int(input("Enter a number"))
+b= input("Enter a number")
+
+a, b = map(int, input("Enter any thing").split())
+print(a)
+print(b)
+'''
+Output:
+Enter a number45
+Enter a number56
+Enter any thing12 23 
+12
+23
+<class 'int'>
+<class 'str'>
+<class 'int'>
+<class 'int'>
+'''
+
+''' error case:-
+c, d = → needs 2 values
+Number of variables = Number of input values
+
+map(int, ...) → all values must be numbers
+
+'''         
