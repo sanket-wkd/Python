@@ -26,4 +26,9 @@ result = filter (failing , marks)
 print ("Failing score: ", list (result))
 
 
+'''
+Output :-
+Failing score:  [55, 33, 3, 12, 10]
+'''
+
 
