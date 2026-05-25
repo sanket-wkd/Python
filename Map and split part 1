@@ -1,0 +1,14 @@
+text = "Hello World"
+result = text.split()
+print(result)
+
+
+a = "2026-05-26"
+print(a.split("-"))
+
+
+'''
+OUTPUT:-
+['Hello', 'World']
+['2026', '05', '26']
+'''
