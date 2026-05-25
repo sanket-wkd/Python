@@ -11,6 +11,7 @@ print(type(a))
 print(type(b))
 
 '''
+Remember see part 3
 INPUT :-
 1. Sanket 19
 2. 3 2
