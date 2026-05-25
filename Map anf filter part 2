@@ -1,0 +1,29 @@
+'''
+filter
+map har aak jaga par ja kar use hota hai 
+lakin 
+filter jo hai vo aaksat filter out kar data hai chijo ko
+return in case True or false
+
+work:
+1.score marks kai aandar jaya ga
+2.check condition if not fill say false i.e not put in out put
+3.jis kai liya true hai vo retuen karo shou in output
+
+work as map  on each iteration (aak aak vluse par jakai )
+but the differnce is in nature
+work according to true or false
+map indusivial go and check
+
+
+'''
+marks = [77,97,64,85,55,33,3,12,10,100]
+
+def failing (score):
+    return score < 60
+
+result = filter (failing , marks)
+print ("Failing score: ", list (result))
+
+
+
