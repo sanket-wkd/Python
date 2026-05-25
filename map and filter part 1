@@ -1,0 +1,45 @@
+''''
+har aak element (of data strucctur) par jakai koi operation perform
+karna hau to map 
+function use kartai hai
+
+in map function by default we pass 2 argument
+
+map it self a funtion  jo kam usmai karna chata hai vo funtion through karagai 
+pass in map
+map is like iterater
+so for print all result we is list()
+ 
+'''
+
+marks = [ 77,97.64,85,55]
+
+def grade(marks):
+    if marks >= 90:
+        return 'A'
+    elif 80 <= marks <90:
+        return 'B'
+    elif 70 <= marks < 80:
+        return 'C'
+    elif 60 <= marks <70:
+        return 'D'
+    else:
+        return 'F'
+    
+grades = map(grade,marks)
+# grades = list (map(grade,marks))
+
+
+print ("Exme Scores :",marks)
+print("Grades:",next (grades))
+print("Grades:",next (grades))
+print ()
+print ("By defalt print iteraton wise another wat is : ")
+print()
+print("Grades:",list (grades))# use lidt insted of next
+#  or use list in front of map
+print("Another way")
+
+grades = list (map(grade,marks))
+print("Grades:", (grades))
+
