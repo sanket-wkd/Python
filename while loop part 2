@@ -1,0 +1,22 @@
+# This process repeats until number becomes less than or equal to 0.
+     # factorial function
+#while loop example
+
+def fact(n):
+    fact = 1
+    
+    if n==0 or n==1:
+        return fact
+    else:
+        while(n>0):
+            fact *=n
+            n-=1
+        return fact
+        
+n = int(input("Enter the number:"))
+print(fact(n)
+
+# We create a function that find factorial
+    # as we know factorial of 0 and 1 is 1
+    # we write code for n>0 if we find factorial of 0 it will cause error so tske
+    # this exception condition and that how's the approach is.
