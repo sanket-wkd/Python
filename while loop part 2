@@ -16,6 +16,14 @@ def fact(n):
 n = int(input("Enter the number:"))
 print(fact(n)
 
+'''
+Output:
+Enter the number:
+Input :  5
+output::
+120
+
+
 # We create a function that find factorial
     # as we know factorial of 0 and 1 is 1
     # we write code for n>0 if we find factorial of 0 it will cause error so tske
