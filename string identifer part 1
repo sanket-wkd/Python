@@ -13,4 +13,13 @@ if x.isalpha():
     print("String")
 else:
     print("Not a pure string") #hi5 ,J1, words
-    
+
+
+#isalpha() → checks whether the input contains only letters.
+
+
+''''
+hello → String
+123 → Not a pure string
+abc123 → Not a pure string
+'''
