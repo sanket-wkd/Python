@@ -10,5 +10,11 @@ while i <= 3:
         break
     print() 
     i += 1  #outer
-    
-    
+
+
+    '''
+    Output :-
+(1, 1).
+(2, 1).
+(3, 1).
+'''
