@@ -18,3 +18,15 @@ while i <= n:
     else:
         i += 1
 
+'''
+Output:-
+Enter the number :5
+Searching the number 5 :
+Checking : 0
+Checking : 1
+Checking : 2
+Checking : 3
+Checking : 4
+Checking : 5
+Searching found 5! Stopped.
+'''
