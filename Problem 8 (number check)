@@ -1,0 +1,20 @@
+n = int(input("Enter the number :"))
+
+print(f"Searching the number {n} :")
+
+i = 0
+found = False
+
+while i <= n:
+
+    if found:
+        print(f"Searching found {n}! Stopped.")
+        break
+
+    print(f"Checking : {i}")
+
+    if i == n:
+        found = True
+    else:
+        i += 1
+
