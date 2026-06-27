@@ -15,6 +15,15 @@ print("Area of triangle is : ",triangle_area (base , height))
 radius = float(input("Enter radius of circle :"))
 print("Area of circle is :",Circle_area(radius))
 
+'''
+output:-
+Enter the base of triangle : 1
+Enter the height of the triangle :5
+Area of triangle is :  2.5
+Enter radius of circle :3
+Area of circle is : 28.285714285714285
+
+'''
 
 
 '''
