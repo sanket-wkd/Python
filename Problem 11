@@ -1,0 +1,46 @@
+'''
+1234
+1234
+1234
+1234
+for n = 4 <- in square formate
+
+
+'''
+
+n = int(input("Enter the number: "))
+
+for i in range(1, n+1):
+    for j in range(1, n+1):
+        print(j, end="")
+        # print("HERE CHECK THE DIFFERENCE BETWEEN THEM :-")
+        #print(j,end="")
+    print()
+
+'''
+Output:-
+
+ers/Sanket Wakudakar/OneDrive/Desktop/file/python__practice/pattern 1.py"
+Enter the number: 4
+1234
+1234
+1234
+1234
+
+'''
+'''
+| Concept               | Python              | C++                 |
+| --------------------- | ------------------- | ------------------- |
+| Print without newline | `print(j, end="")`  | `cout << j;`        |
+| Print with newline    | `print()`           | `cout << endl;`     |
+| Space separated       | `print(j, end=" ")` | `cout << j << " ";` |
+
+
+| Line               | Meaning                              |
+| ------------------ | ------------------------------------ |
+| `print(j, end="")` | Print **without going to next line** |
+| `print()`          | Go to the **next line**              |
+
+endl"<- on the same line <- usi line par rukho
+Normally, Python’s print() adds a new line automatically.
+'''
