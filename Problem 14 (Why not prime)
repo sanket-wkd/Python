@@ -1,0 +1,44 @@
+'''
+for be like aagar,gar ka  
+
+if and else be like aagar ,, nahi to // mai nahi to kon bai or kon hai (else)
+if and if be like  aagar ,, and yabi condition
+
+for–else rule in Python:
+else runs only if the loop finishes normally
+else does NOT run if break is used
+
+
+'''
+
+# find the prime number also tell why it is not
+
+
+n = int(input("Enter the number :"))
+
+if n<=1 :
+    print("This is not prime ")
+    print("It is less then 1")
+    exit()
+
+for i in range(2,n):
+    if(n % i == 0):
+        print("THis is not prime number because of ",i)
+
+        exit()  #stop program immediately
+
+# If loop finishes, number is prime
+print("This is a prime number")
+
+'''
+Output:-
+Enter the number :5 
+This is a prime number
+
+Enter the number :0
+This is not prime 
+It is less then 1
+
+Enter the number :9
+THis is not prime number because of  3
+'''
