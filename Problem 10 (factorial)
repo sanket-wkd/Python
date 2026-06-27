@@ -19,6 +19,18 @@ else:
     print("nCr =", ncr)
 
 '''
+Output_
+Enter the value of n :5
+Enter the value of r :6
+nCr does not exist
+
+Enter the value of n :6
+Enter the value of r :5
+nCr = 6
+
+'''
+
+'''
 Let’s clear it cleanly and compare end, break, return, and exit() 
 so you never mix them again.
 
