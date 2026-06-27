@@ -1,0 +1,63 @@
+'''
+AIM TO PRINT 
+1
+2 1
+3 2 1
+4 3 2 1
+
+range(start, stop, step)
+
+👉 start → where counting begins
+👉 stop → where counting stops (NOT included)
+👉 step → how numbers change
+
+👉 The stop value is NEVER printed.
+'''
+n = 5
+
+for i in range(1,n+1):
+    for j in range(i,0,-1):# stop just before it j go as per counting
+        print(j, end=" ")
+    print()
+
+
+'''
+Output:
+1 
+2 1 
+3 2 1 
+4 3 2 1 
+5 4 3 2 1
+'''
+    
+'''
+print function in c or cpp and in python litter different
+In python :
+after printing a value it automatically go to next line 
+this is not happen in c or cpp <- next by \n and endl respectively
+
+endl and end differnt
+'''
+'''
+what if i do 
+for i in range(0,n+1)
+for i in range(1,n+1)
+keeping all code same get same result explain it
+
+
+for j in range(i, 0, -1)
+Substitute i = 0:
+
+range(0, 0, -1)
+👉 Question for you (think first):
+Does this produce any numbers?
+
+Remember:
+start = 0
+stop = 0 (not included)
+
+moving backward
+What happens?
+👉 Nothing runs.
+The loop has zero iterations.
+'''
