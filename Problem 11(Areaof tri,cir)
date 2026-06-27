@@ -1,0 +1,57 @@
+
+#Write a program to compute the area of a triangle and circle
+# by area() function.
+
+def triangle_area (base , height):
+    return 0.5*base*height
+
+def Circle_area (radius):
+    return (22.0/7)*radius*radius
+
+base = float(input("Enter the base of triangle : "))
+height = float (input("Enter the height of the triangle :"))
+print("Area of triangle is : ",triangle_area (base , height))
+
+radius = float(input("Enter radius of circle :"))
+print("Area of circle is :",Circle_area(radius))
+
+
+
+'''
+we use function in a program to do calculation of a simiplar part
+or to skip particular steps
+
+One-line exam answer 📝
+
+def is a keyword used in Python to define a function.
+It cannot be replaced by data types like float 
+because data types store values,while def defines executable code.
+
+
+| `def`                         | `float`                          |
+| ----------------------------- | -------------------------------- |
+| Used to **define a function** | Used to **store decimal values** |
+| Creates a block of code       | Creates a variable               |
+| Performs an action            | Holds data                       |
+
+
+Wrong (cannot replace def with float)
+
+float area(base, height):   # ❌ INVALID
+x = float(input("Enter number"))
+
+Here:
+float converts input to decimal
+It does NOT define a function
+
+Simple analogy 🧠
+🧰 def → machine (does work)
+📦 float → box (stores value)
+You cannot replace a machine with a box.
+
+THIS IS TERMONOLOGY 
+AS WE NOT USE DICTIONARY OR LIBERALLY LIKE IN C++
+'''
+
+
+
