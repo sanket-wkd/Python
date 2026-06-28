@@ -1,0 +1,33 @@
+import numpy as np
+
+
+# Array Attributes
+#never change any thing tell the required meaning of any ting
+
+
+arr = np.array([[1, 2, 3], [4, 5, 6]])
+print("Array:") 
+print(arr)
+print("\n --- Attributes --- ") 
+print ("Shape      :", arr. shape)       # (2, 3) - 2 rows, 3 cols 
+print("ndim        :", arr.ndim)         # 2 - number of dimensions 
+print("size        :", arr.size)        # 6 - total elements
+print("dtype       :", arr.dtype)        # int64 / int32 - data type
+print("itemsize    :",arr. itemsize )      # bytes per element
+
+print()
+
+'''
+Output:-
+Array:
+[[1 2 3]
+ [4 5 6]]
+
+ --- Attributes --- 
+Shape      : (2, 3)
+ndim        : 2
+size        : 6
+dtype       : int64
+itemsize    : 8
+
+'''
