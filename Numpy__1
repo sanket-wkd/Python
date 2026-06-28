@@ -1,0 +1,26 @@
+# 1D array (___single dimension____)
+
+import numpy as np
+
+list1 = [1, 2, 3, 4, 5]
+
+arr1 = np.array([1,2,3,4,5])# spelling need correct
+
+print("Array :", arr1)
+print("Type :", type(arr1))
+print("Type :", type(list))
+print("Shape :", arr1.shape) #(5,) means 5 element 
+
+
+'''
+output:
+Array : [1 2 3 4 5]
+Type : <class 'numpy.ndarray'>
+Type : <class 'type'>
+Shape : (5,)
+
+'''
+'''
+print arr1 look same as list but type deffernt
+see the class 
+'''
