@@ -1,0 +1,28 @@
+import numpy as np
+
+matrix4 = np.arange(2,12,2).reshape(1,5) # 5x1=5
+matrix5 = np.arange(2,21,2).reshape(2,5) #2x5=10==size
+print()
+print("Taking even only")
+print("(Start , stop , step)")
+print()
+print(matrix4)
+print()
+print(matrix5)
+'''
+Output:-
+
+Taking even only
+(Start , stop , step)
+
+[[ 2  4  6  8 10]]
+
+[[ 2  4  6  8 10]
+ [12 14 16 18 20]] 
+'''
+'''
+  matrix4 = np.arange(2,12,2).reshape(1,2)
+ValueError: cannot reshape array of size 5 into shape (1,2)
+note size 5
+'''
+
