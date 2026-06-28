@@ -1,0 +1,15 @@
+import numpy as np
+
+# ones - array of ones 
+print("\nOnes (2x3):") 
+print(np.ones((2,3))) # all values as one
+print()
+
+'''
+Output:-
+Ones (2x3):
+[[1. 1. 1.]
+ [1. 1. 1.]]
+
+
+'''
