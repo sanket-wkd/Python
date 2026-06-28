@@ -1,0 +1,17 @@
+import numpy as np
+
+
+# Identity matrix
+print("\nIdentity matrix (3x3):")   #diagonal == 1 all are zeroes
+print(np.eye(3))  #no need to give R and C value
+print()
+
+'''
+Output:-
+
+Identity matrix (3x3):
+[[1. 0. 0.]
+ [0. 1. 0.]
+ [0. 0. 1.]]
+
+'''
