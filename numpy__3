@@ -1,0 +1,38 @@
+import numpy as np
+
+import numpy as np
+
+# Reshape --- Change Dimensions
+
+matrix1 = np.arange(1,13).reshape(4,3)#reshape like (rows,coloums)
+matrix2 = np.arange(1,13).reshape(3,4)
+matrix3 = np.arange(1,13).reshape(2,6)
+print("Matrix")
+print(matrix1)
+print()
+print(matrix2)
+print()
+print(matrix3)
+
+'''
+arange method is like range
+
+   matrix1 = np.arange(1,13).reshape(3,3)
+ValueError: cannot reshape array of size 12 into shape (3,3)
+'''
+'''
+Output:-
+Matrix
+[[ 1  2  3]
+ [ 4  5  6]
+ [ 7  8  9]
+ [10 11 12]]
+
+[[ 1  2  3  4]
+ [ 5  6  7  8]
+ [ 9 10 11 12]]
+
+[[ 1  2  3  4  5  6]
+ [ 7  8  9 10 11 12]]
+
+'''
