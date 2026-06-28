@@ -1,0 +1,25 @@
+# Built-in Functions for Common Arrays
+
+'''
+Number of element can generate using limit can be genarated ---->range
+'''
+
+import numpy as np
+# arange - like Python range, but returns array 
+print("arange(0,10,2)  :",np.arange(0,10,2))   #[0,2,4,6,8]
+print("arange reshaped")
+print(np.arange(0, 10, 2).reshape(5,1))         #column vector
+print()
+
+
+'''
+Output :-
+arange(0,10,2)  : [0 2 4 6 8]
+arange reshaped
+[[0]
+ [2]
+ [4]
+ [6]
+ [8]]
+
+'''
