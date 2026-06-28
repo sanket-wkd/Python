@@ -1,0 +1,41 @@
+import numpy as np
+
+print("See the difference")
+arr = np.array([1, 2, 3 ,4, 5, 6])
+print("Array:") 
+print(arr)
+print("\n --- Attributes --- ") 
+print ("Shape      :", arr. shape)       
+print("ndim        :", arr.ndim)          
+print("size        :", arr.size)        
+print("dtype       :", arr.dtype)       
+print("itemsize    :",arr. itemsize )     
+
+'''
+Output:-
+See the difference
+Array:
+[1 2 3 4 5 6]
+
+ --- Attributes --- 
+Shape      : (6,)
+ndim        : 1
+size        : 6
+dtype       : int64
+itemsize    : 8
+
+'''
+
+
+'''
+About properties of arrey 
+
+if there is 2 dimensional table like an excel sheet
+to know how many elements are there we use size attributer
+
+in python array is noting but the table
+
+dtype -->data type storing
+itemsize --> how many bites per element it is consuming
+
+'''
