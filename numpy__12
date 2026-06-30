@@ -1,0 +1,31 @@
+
+# Vectorized operation
+import numpy as np
+
+
+# Element-wise operations - NO LOOP needed !
+arr1 = np.array( [1, 2, 3, 4, 5])
+arr2 = np.array([10, 20, 30, 40, 50])
+print("arr1 :", arr1)
+print("arr2 :", arr2)
+print()
+print("Addition     :",arr1 + arr2)
+print("Subtraction  :", arr1 - arr2)
+print("Multiplication :", arr1 * arr2) 
+print("Division    :", arr1 / arr2)
+
+'''
+Output:-
+arr1 : [1 2 3 4 5]
+arr2 : [10 20 30 40 50]
+
+Addition     : [11 22 33 44 55]
+Subtraction  : [ -9 -18 -27 -36 -45]
+Multiplication : [ 10  40  90 160 250]
+Division    : [0.1 0.1 0.1 0.1 0.1]
+'''
+'''
+Without loops list cannot perform any task 
+Add, Sub ,Div  but using numpy it is too eassy
+'''
+
