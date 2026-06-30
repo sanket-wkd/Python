@@ -1,0 +1,20 @@
+ 
+#Statistical function
+
+import numpy as np
+
+data = np.array([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+
+print("Data     :",data)
+print("")
+print("Mean     :",np.mean(data))   #average
+print("Median   :",np.median(data)) #middle value
+print("Std Dev  :",np.std(data))    #spread
+print("Variance :",np.var(data))    #std
+print("Min      :",np.min(data))
+print("Max      :",np.max(data))
+print("Sum      :",np.max(data))
+print("Cumutative :",np.cumsum(data))   #running total
+print("")
+print("")
+
