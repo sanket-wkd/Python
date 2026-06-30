@@ -1,0 +1,49 @@
+#Universal Function 
+
+import numpy as np
+
+arr = np.array([2, 3, 4 ,5 ,6])
+
+#Square root
+print("sqrt :",np.sqrt(arr))
+print()
+
+#Exponential (e^x)
+print("exp      :",np.exp(arr))
+print()
+
+#Trigonometry (input in radians)
+print("Sin  :",np.sin(arr))
+print("Cos  :",np.cos(arr))
+print()
+
+#Natural log (base e)
+print("log  :",np.log(arr))
+print()
+
+#Log base 10
+print("log10    :",np.log10(arr))
+print()
+
+#Absoulte value
+print("abs  :",np.abs(np.array([[-3,-2,1,4,-5]])))
+print()
+
+
+'''
+Output:-
+
+sqrt : [1.41421356 1.73205081 2.         2.23606798 2.44948974]
+
+exp      : [  7.3890561   20.08553692  54.59815003 148.4131591  403.42879349]
+
+Sin  : [ 0.90929743  0.14112001 -0.7568025  -0.95892427 -0.2794155 ]
+Cos  : [-0.41614684 -0.9899925  -0.65364362  0.28366219  0.96017029]
+
+log  : [0.69314718 1.09861229 1.38629436 1.60943791 1.79175947]
+
+log10    : [0.30103    0.47712125 0.60205999 0.69897    0.77815125]
+
+abs  : [[3 2 1 4 5]]
+
+'''
