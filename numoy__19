@@ -1,0 +1,41 @@
+import numpy as np
+arr = np.array([[1,2,3,4],
+                [5,6,7,8],
+                [9,10,11,12]])
+
+#modify single element
+arr[0:0] = 100
+print("After arr[0,0] =100")
+print(arr)
+print()
+
+#Modify entire row
+arr[1] = 0
+print("\nAfter arr[1]=0:")
+print(arr)
+
+#MOdify multiple row at once
+arr[1:] = 99
+print("\nAfter arr[1]=99:")
+print(arr)
+
+'''
+Output:-
+
+After arr[0,0] =100
+[[ 1  2  3  4]
+ [ 5  6  7  8]
+ [ 9 10 11 12]]
+
+
+After arr[1]=0:
+[[ 1  2  3  4]
+ [ 0  0  0  0]
+ [ 9 10 11 12]]
+
+After arr[1]=99:
+[[ 1  2  3  4]
+ [99 99 99 99]
+ [99 99 99 99]]
+
+'''
