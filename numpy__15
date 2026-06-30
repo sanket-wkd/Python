@@ -1,0 +1,10 @@
+# Compare with list - needs loop! 
+prices_list = [100, 250, 500, 1000, 2500] 
+with_gst = [p * 1.18 for p in prices_list]   # loop needed
+print("nList method (loop):", with_gst)  
+print()
+
+'''
+Output:-
+nList method (loop): [118.0, 295.0, 590.0, 1180.0, 2950.0]
+''
