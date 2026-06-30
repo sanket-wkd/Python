@@ -1,0 +1,43 @@
+#Logical Operations and Filtering
+import numpy as np
+
+data = np.array([1,2,3,4,5,6,7,8,9,10])
+
+#Boolean mask
+mask = data > 5
+print("Data     :",data)
+print("Data > 5 :",mask)
+print()
+
+#Filter - only value where condition is True
+print("\nValue > 5  :",data[data > 5])
+print("Value <= 3   :",data[data <= 3])
+print()
+
+#Multiple condition (use & for AND, | for OR)
+between = data[(data > 5) & (data <= 8)]
+print("Between 5-8  :",between)
+
+#OR condition
+extremes = data[(data <3) | (data > 8)]
+print("Extremes     :",extremes)
+
+'''
+condition wwrite inside the square bracket just
+[]-->direct condition put
+ 
+'''
+'''
+Output:-
+Data     : [ 1  2  3  4  5  6  7  8  9 10]
+
+Mean     : 5.5
+Median   : 5.5
+Std Dev  : 2.8722813232690143
+Variance : 8.25
+Min      : 1
+Max      : 10
+Sum      : 10
+Cumutative : [ 1  3  6 10 15 21 28 36 45 55]
+
+'''
