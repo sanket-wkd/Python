@@ -1,0 +1,19 @@
+import numpy as np
+
+print()
+# Scalar operations - apply to ALL elements
+prices = np.array([100, 250, 500, 1000, 2500])
+print("Original prices  :", prices)
+print("With 18% GST  :", prices * 1.18) 
+print("After 10% disc :", prices * 0.9) 
+print("Squared :", prices ** 2)
+
+'''
+Output:-
+
+Original prices  : [ 100  250  500 1000 2500]
+With 18% GST  : [ 118.  295.  590. 1180. 2950.]
+After 10% disc : [  90.  225.  450.  900. 2250.]
+Squared : [  10000   62500  250000 1000000 6250000]
+
+'''
