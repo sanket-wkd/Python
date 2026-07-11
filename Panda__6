@@ -1,0 +1,30 @@
+import pandas as pd
+
+
+#Way 4: With explicit index parameter
+data = [10,20,30]
+labels = ['a','b','c']
+
+s4 = pd.Series(data,index=labels) #  S capital
+print(s4)
+
+#series operations (vectorized like Numpy)
+print("\n----OPerations-----")
+print("Sum      :",s4.sum())
+print("Mean     :",s4.mean())
+print("Max      :",s4.max())
+print("s4 * 2   :",list(s4 *2))
+
+'''
+Output:-
+a    10
+b    20
+c    30
+dtype: int64
+
+----OPerations-----
+Sum      : 60
+Mean     : 20.0
+Max      : 30
+s4 * 2   : [20, 40, 60]
+'''
