@@ -1,0 +1,19 @@
+import pandas as pd
+
+
+prices = [299,599,999,1499,2499]
+products = ["T-shirt","Jeans","Shoes","Watch","Headphones"]
+s2 = pd.Series(prices,index=products)
+
+#thise values can be access using indexing
+#Access bu label
+
+print("\n Watch price :",s2["Watch"])
+print("Shoes price :",s2['Shoes'])
+
+'''
+Output:-
+
+Watch price : 1499
+Shoes price : 999
+'''
