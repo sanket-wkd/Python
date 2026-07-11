@@ -1,0 +1,20 @@
+#2 From a list with custom index (labels)
+
+import pandas as pd
+
+prices = [299,599,999,1499,2499]
+products = ["T-shirt","Jeans","Shoes","Watch","Headphones"]
+
+s2 = pd.Series(prices)
+print("Product prices")
+print(s2)
+
+'''
+Product prices
+0     299
+1     599
+2     999
+3    1499
+4    2499
+dtype: int64
+'''
