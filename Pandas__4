@@ -1,0 +1,30 @@
+
+#Way 3: From a dictionary(Keys become index)
+city_population = {
+    'Mumbai':20.4,
+    'Delhi':32.9,
+    'Bengaluru' : 13.2,
+    'Chennai':11.0    
+}
+
+s3 = pd.Series(city_population)
+print("City population (in millions):")
+print(s3)
+
+#ACCESS
+print("\nMumabi pop :",s3['Mumbai'])
+
+
+
+'''
+Output:-
+
+City population (in millions):
+Mumbai       20.4
+Delhi        32.9
+Bengaluru    13.2
+Chennai      11.0
+dtype: float64
+
+Mumabi pop : 20.4
+'''
