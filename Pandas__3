@@ -1,0 +1,31 @@
+import pandas as pd
+
+
+prices = [299,599,999,1499,2499]
+products = ["T-shirt","Jeans","Shoes","Watch","Headphones"]
+
+s2 = pd.Series(prices,index=products)
+print("Product prices")
+print(s2)
+print()
+s3=pd.Series(products,index=prices)
+print(s3)
+
+'''
+Output:-
+
+Product prices
+T-shirt        299
+Jeans          599
+Shoes          999
+Watch         1499
+Headphones    2499
+dtype: int64
+
+299        T-shirt
+599          Jeans
+999          Shoes
+1499         Watch
+2499    Headphones
+dtype: str
+'''
