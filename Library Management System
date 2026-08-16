@@ -1,0 +1,85 @@
+'''
+Write a Python program to create a simplified Library Management
+System using Object-Oriented Programming principles. 
+The system should manage books and patrons (library users) 
+and allow basic operations such as adding new books, registering patrons,
+borrowing available books, returning borrowed books, 
+and displaying the current status of books.
+The program should use classes, objects, constructors,
+and methods to implement the required functionality.
+
+'''
+
+class Book :
+    def __init__(self,title,author):
+        self.title = title
+        self.author = author
+        self.is_borrowed = False
+        
+    def __str__(self):
+        status = "Borrowed" if self.is_borrowed else "Available"
+        return f"{self.title} by {self.author} -{status}"
+    
+    
+    
+class Patron:
+    def __init__(self,name):
+        self.name = name
+        self.borrowed_book = []
+            
+    def borrow_book(self,book):
+        if book.is_borrowed == False:
+            book.is_borrowed = True
+            self.borrowed_book.append(book)
+            print("Book borrowed successfully")
+        else:
+            print("Book is already borrowed")
+                
+class Library:
+    def __init__(self): 
+        self.books =[]
+        self.patrons =[]
+        
+    def add_book(self,book):
+        self.books.append(book)
+        print("Book added successfully")
+    
+    def register_patron(self,patron):
+        self.patrons.append(patron)
+        print("Patron registered successfully")
+        
+    def show_book(self):
+       print("\n --- Library Book ---")
+       
+       for book in self.books:
+           print(book)
+           
+library = Library()
+
+title1 = input("Enter first book title :")
+author1 =  input("Enter first book author :")
+
+title2 = input("Enter first book title :")
+author2 =  input("Enter first book author :")
+
+book1 = Book(title1,author1)
+book2 = Book(title2,author2)
+
+library.add_book(book1)
+library.add_book(book2)
+
+name = input("\n Enter patron name:")
+patron1 = Patron(name)
+library.register_patron(patron1)
+
+
+choice = int(input("\n Enter book number to borrow (1 or 2) :"))
+
+if choice == 1:
+    patron1.borrow_book(book1)
+elif choice == 2:
+    patron1.borrow_book(book2)
+else:
+    print("Invalid book number.")
+    
+library.show_book()
