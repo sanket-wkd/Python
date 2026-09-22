@@ -4,7 +4,7 @@ import numpy as np
 
 list1 = [1, 2, 3, 4, 5]
 
-arr1 = np.array([1,2,3,4,5])# spelling need correct
+arr1 = np.array([1,2,3,4,5])
 
 print("Array :", arr1)
 print("Type :", type(arr1))
@@ -21,6 +21,6 @@ Shape : (5,)
 
 '''
 '''
-print arr1 look same as list but type deffernt
+print arr1 look same as list but type differnt
 see the class 
 '''
