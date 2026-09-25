@@ -1,0 +1,51 @@
+import numpy as np
+
+'''
+Syntax:
+np.linspace(start, stop, number_of_values)
+
+Example:
+np.linspace(0, 10, 5)
+
+start = 0
+stop = 10
+number of values = 5
+'''
+
+
+print("Linspace:")
+print(np.linspace(0, 10, 5))
+
+'''
+Output:
+
+[0.  2.5 5.  7.5 10.]
+'''
+
+
+# How does linspace calculate the spacing?
+
+'''
+Formula:
+
+Spacing = (stop - start) / (number_of_values - 1)
+
+For:
+
+start = 0
+stop = 10
+number_of_values = 5
+
+Spacing = (10 - 0) / (5 - 1)
+        = 10 / 4
+        = 2.5
+So
+Result act as :
+
+0.0 ---- 2.5 ---- 5.0 ---- 7.5 ---- 10.0
+        2.5       2.5       2.5       2.5
+
+There are 5 elements but only 4 gaps.
+
+
+'''
